@@ -13,4 +13,4 @@ target_compile_definitions(EASTL PRIVATE
   -D_SCL_SECURE_NO_WARNINGS
   -DEASTL_OPENSOURCE=1)
 target_include_directories(EASTL PUBLIC include)
-target_link_libraries(EASTL PRIVATE EABase)
+target_link_libraries(EASTL PUBLIC EABase)

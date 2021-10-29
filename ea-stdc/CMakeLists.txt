@@ -12,4 +12,4 @@ target_compile_definitions(EAStdC PRIVATE
   -D_SCL_SECURE_NO_WARNINGS
   -D_CHAR16T)
 target_include_directories(EAStdC PUBLIC include)
-target_link_libraries(EAStdC PRIVATE EABase EAAssert EAThread)
+target_link_libraries(EAStdC PUBLIC EABase EAAssert EAThread)
