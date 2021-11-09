@@ -16,3 +16,5 @@ add_subdirectory(ea-assert)
 add_subdirectory(ea-thread)
 add_subdirectory(ea-stl)
 add_subdirectory(ea-stdc)
+
+add_subdirectory(example EXCLUDE_FROM_ALL)

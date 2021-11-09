@@ -11,5 +11,7 @@ target_compile_definitions(EAStdC PRIVATE
   -D_CRT_SECURE_NO_WARNINGS
   -D_SCL_SECURE_NO_WARNINGS
   -D_CHAR16T)
+target_compile_definitions(EAStdC PUBLIC
+  -DEASTDC_VSNPRINTF8_ENABLED=1)
 target_include_directories(EAStdC PUBLIC include)
 target_link_libraries(EAStdC PUBLIC EABase EAAssert EAThread)
